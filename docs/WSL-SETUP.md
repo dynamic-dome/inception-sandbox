@@ -31,7 +31,7 @@ claude login
 Option B — Windows-Claude aus WSL aufrufen:
 ```bash
 # In ~/.bashrc hinzufuegen:
-alias claude='/mnt/c/Users/domes/AppData/Roaming/npm/claude.cmd'
+alias claude='/mnt/c/Users/<user>/AppData/Roaming/npm/claude.cmd'
 ```
 
 ### 4. Codex CLI in WSL verfuegbar machen
@@ -41,7 +41,7 @@ codex login
 ```
 Oder analog Windows-Binary:
 ```bash
-alias codex='/mnt/c/Users/domes/AppData/Roaming/npm/codex.cmd'
+alias codex='/mnt/c/Users/<user>/AppData/Roaming/npm/codex.cmd'
 ```
 
 ### 5. Verifizieren
